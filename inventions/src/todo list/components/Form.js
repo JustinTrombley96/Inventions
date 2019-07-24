@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormInput, Button } from "shards-react"
 
 class Form extends React.Component {
 	constructor() {
@@ -20,8 +21,8 @@ class Form extends React.Component {
 		console.log('rendering form');
 		return (
 			<form onSubmit={this.submitTodo}>
-				<input type='text' value={this.state.item} name='item' onChange={this.handleChanges} />
-				<button>Add</button>
+				<FormInput type='text' size="lg"value={this.state.item} name='item' onChange={this.handleChanges} />
+				<Button theme="success">Add</Button>
 			</form>
 		);
 	}

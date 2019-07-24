@@ -20,16 +20,15 @@
 }
 .dark-mode {
 	background-color: black;
-	color: white;
 }
 .header {
 	display: flex;
 	flex-direction: row;
-    align-content: space-around;
+	align-content: space-around;
 }
 .name {
-    margin-right: 100px;
+	margin-right: 100px;
 }
 .navbar {
-    padding: 0;
+	padding: 0;
 }
